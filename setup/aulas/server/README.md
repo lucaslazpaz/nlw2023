@@ -1,8 +1,8 @@
 # ANOTAÇÕES NLW
+##### BACKEND
 
 ### AULA 01
 ---
-##### BACKEND
 
 - [X] Fundamentos do Node.js
 - [X] Criação do Projeto com NPM: 
@@ -48,3 +48,32 @@
     - Instalando o Fastify CORS
 
             npm i @fastify/cors
+
+### AULA 02
+---
+
+- [X] Diagramação do banco de dados
+
+    - Dica de autocomplete para criar relacionamentos com o prisma é adiconar o seguingue código nas configurações do VS Code:
+
+						"[prisma]": {
+							"editor.formatOnSave": true
+						}
+						
+- [X] Criação das tabelas no banco
+
+- [X] Criação de seed do banco de dados
+
+- [X] Isolando arquivos do back-end
+
+- [X] Criação das Rotas
+
+    - Instalação da lib "zod" para validação dos dados:
+                    
+            npm install zod
+
+    - Instalação da lib "dayjs" para formatação de datas no TypeScript:
+
+            npm install dayjs
+
+    
